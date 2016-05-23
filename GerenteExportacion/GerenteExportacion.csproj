@@ -109,13 +109,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="estilos.css" />
     <Content Include="Global.asax" />
+    <Content Include="menus\addons\bootstrap\jquery.smartmenus.bootstrap.css" />
+    <Content Include="menus\addons\bootstrap\jquery.smartmenus.bootstrap.js" />
+    <Content Include="menus\addons\bootstrap\jquery.smartmenus.bootstrap.min.js" />
+    <Content Include="menus\addons\keyboard\jquery.smartmenus.keyboard.js" />
+    <Content Include="menus\addons\keyboard\jquery.smartmenus.keyboard.min.js" />
+    <Content Include="menus\css\sm-blue\sm-blue.css" />
+    <Content Include="menus\css\sm-core-css.css" />
+    <Content Include="menus\html5shiv.min.js" />
+    <Content Include="menus\jquery.smartmenus.js" />
+    <Content Include="menus\jquery.smartmenus.min.js" />
+    <Content Include="menus\libs\demo-assets\demo.css" />
+    <Content Include="menus\libs\demo-assets\readme.txt" />
+    <Content Include="menus\libs\demo-assets\shjs\shjs.css" />
+    <Content Include="menus\libs\demo-assets\shjs\shjs.js" />
+    <Content Include="menus\libs\demo-assets\themes-switcher.js" />
+    <Content Include="menus\libs\jquery\jquery.js" />
+    <Content Include="menus\respond.min.js" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -126,6 +152,13 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="menus\css\sm-blue\mixins\_round-corners-last-item.scss" />
+    <Content Include="menus\css\sm-blue\mixins\_sub-items-indentation.scss" />
+    <Content Include="menus\css\sm-blue\sm-blue.scss" />
+    <Content Include="menus\css\sm-blue\_mixins.scss" />
+    <Content Include="menus\css\sm-blue\_sm-blue.scss" />
+    <Content Include="menus\LICENSE-MIT" />
+    <Content Include="menus\README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
