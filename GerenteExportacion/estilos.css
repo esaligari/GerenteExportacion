@@ -1,10 +1,15 @@
 ﻿body{ font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
   font-size: 18px;}
+#Menu-Lateral { 
+/*border: 3px solid #1161c2;*/
+background-color:cornflowerblue;
+color:white;
+ left:0px; top:80px; float:left; margin-right:25px; margin-top:70px; margin-left:-8px;
+height:100%; z-index:0;
+}
+datos { float:left; top:80px; height:auto; }
 #main-header {
-	background: #333;
-	color: white;
-	height: 80px;
-    
+	background:cornflowerblue;	color: white;	height: 80px;    z-index:1;
 	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
 	left: 0; /* Posicionamos la cabecera al lado izquierdo */
 	top: 0; /* Posicionamos la cabecera pegada arriba */
@@ -36,7 +41,7 @@
 		display: block;
 		font-weight: 300;
 		font-size: 0.8em;
-		color: #999;
+		color: white;
 	}
 #main-content {
 	background: white;

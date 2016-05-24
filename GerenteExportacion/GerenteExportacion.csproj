@@ -112,6 +112,27 @@
     <Content Include="Default.aspx" />
     <Content Include="estilos.css" />
     <Content Include="Global.asax" />
+    <Content Include="imagenes\box-128.png" />
+    <Content Include="imagenes\box3-128.png" />
+    <Content Include="imagenes\box3-48.png" />
+    <Content Include="imagenes\cambio-128.png" />
+    <Content Include="imagenes\cambio-48.png" />
+    <Content Include="imagenes\camion-128.png" />
+    <Content Include="imagenes\cliente-128.png" />
+    <Content Include="imagenes\cliente-mujer-128.png" />
+    <Content Include="imagenes\CloudBox-128.png" />
+    <Content Include="imagenes\config-48.png" />
+    <Content Include="imagenes\Containers-128.png" />
+    <Content Include="imagenes\contendor-128.png" />
+    <Content Include="imagenes\DHL_Shipping-128.png" />
+    <Content Include="imagenes\medida-128.png" />
+    <Content Include="imagenes\medida-48.png" />
+    <Content Include="imagenes\orden-64.png" />
+    <Content Include="imagenes\pay-128.png" />
+    <Content Include="imagenes\pay-48.png" />
+    <Content Include="imagenes\TNT_Shipping-128.png" />
+    <Content Include="JavaScript.js" />
+    <Content Include="menu.css" />
     <Content Include="menus\addons\bootstrap\jquery.smartmenus.bootstrap.css" />
     <Content Include="menus\addons\bootstrap\jquery.smartmenus.bootstrap.js" />
     <Content Include="menus\addons\bootstrap\jquery.smartmenus.bootstrap.min.js" />
@@ -129,6 +150,7 @@
     <Content Include="menus\libs\demo-assets\themes-switcher.js" />
     <Content Include="menus\libs\jquery\jquery.js" />
     <Content Include="menus\respond.min.js" />
+    <Content Include="newproduct.aspx" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Web.config" />
@@ -145,6 +167,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="newproduct.aspx.cs">
+      <DependentUpon>newproduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newproduct.aspx.designer.cs">
+      <DependentUpon>newproduct.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -159,6 +188,7 @@
     <Content Include="menus\css\sm-blue\_sm-blue.scss" />
     <Content Include="menus\LICENSE-MIT" />
     <Content Include="menus\README.md" />
+    <None Include="Properties\PublishProfiles\FTP-NESV.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
